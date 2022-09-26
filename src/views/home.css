@@ -1,0 +1,17 @@
+.home-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  flex-direction: column;
+  background-size: cover;
+  justify-content: flex-start;
+  background-image: url('https://img.wallpapersafari.com/tablet/2560/1700/36/33/f9MYdt.jpg');
+}
+.home-text {
+  color: #ffffff;
+  font-family: Arial Black;
+}
