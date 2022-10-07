@@ -1,0 +1,29 @@
+body {
+  background-color: #5FC782;
+}
+
+svg {
+  position: absolute;
+  display: block;
+  left: 50%;
+  top: 50vh;
+  margin-bottom: 50vh;
+  overflow: visible;
+  transform: translateX(-50%);
+}
+
+path {
+  fill: none;
+  stroke: #fff;
+  stroke-width: 2px;
+}
+
+.circle {
+  position: absolute;
+  width: 2rem;
+  height: 2rem;
+  top: -1rem;
+  left: -1rem;
+  border-radius: 50%;
+  background: #fff;
+}
