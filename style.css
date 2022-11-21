@@ -1,6 +1,7 @@
 body {
-    background-image: url("assets/bg.jpg");
+    background-image: url("assets/bg-2.jpeg");
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .welcome {
@@ -9,6 +10,8 @@ body {
     text-align: center;
     position: relative;
     top: 20vh;
+    color: rgb(233, 233, 233);
+    text-shadow: 4px 2px 2px #2e2e2e;
 }
 
 .box {
