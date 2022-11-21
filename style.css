@@ -11,15 +11,19 @@ body {
     top: 20vh;
 }
 
+.box {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .button-container {
     position: relative;
-    width: 100%;
-    display: flex;
-    justify-content: center;
 }
 
 .button-pink {
-    position: absolute;
+    position: relative;
     top: 30vh;
 }
 
@@ -33,7 +37,14 @@ button {
     font-family: 'Share Tech Mono', monospace;
     font-family: 'Sono', sans-serif;
     font-size: 15px;
+    margin-top: 20px;
+    min-width: 25vw;
 }
+
+a {
+    text-decoration: none;
+    outline: none;
+  }
 
 button.button-pink {
     font-weight: 600;
