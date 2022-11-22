@@ -7,28 +7,60 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Sono&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
 </head>
 
-<body>
+<body onload="showTime()">
 
     <div class="welcome">
         <h2>if you could be proud of anything you've done, what would it be?</h2>
     </div>
-    <div class="box">
-        <div class="button-container">
-            <a href="/commlab/commlab.html"><button class="button-pink">commlab assignments</button></a>
-        </div>
+    <div class="widgets">
+        <div id="MyClockDisplay" class="clock" onload="showTime()"></div>
+    </div>
     
+    <div class="box">
+
         <div class="button-container">
             <a href="http://whatszionthinking.com"><button class="button-pink">blog</button></a>
         </div>
 
         <div class="button-container">
-            <a href="https://open.spotify.com/user/stateofteddy?si=728c05f861b54c1c"><button class="button-pink">spotify</button></a>
+            <a href="https://open.spotify.com/user/stateofteddy?si=728c05f861b54c1c"><button
+                    class="button-pink">spotify</button></a>
+        </div>
+
+        <div class="button-container">
+            <a href="https://azzadev.github.io/osbook/"><button class="button-pink">operating systems</button></a>
+        </div>
+
+        <div class="button-container">
+            <a href="https://drive.google.com/drive/folders/1CusZocTu0vtoc6WdzTzRzin7WEYUrKKq?usp=sharing"><button
+                    class="button-pink">comm lab</button></a>
+        </div>
+
+        <div class="button-container">
+            <a href="https://brightspace.nyu.edu/d2l/home"><button class="button-pink">brightspace</button></a>
+        </div>
+
+        <div class="button-container">
+            <a href="https://mail.google.com/mail/u/0/#inbox"><button class="button-pink">email</button></a>
+        </div>
+
+        <div class="button-container">
+            <a href="https://calendar.google.com/calendar/u/0/r"><button class="button-pink">calendar</button></a>
+        </div>
+
+        <div class="button-container">
+            <a href="https://docs.google.com/document/u/0/?tgif=d"><button class="button-pink">docs</button></a>
+        </div>
+
+        <div class="button-container">
+            <a href="http://albert.nyu.edu/albert_index.html"><button class="button-pink">albert</button></a>
         </div>
     </div>
-    
-    
+
+
 </body>
 
 </html>

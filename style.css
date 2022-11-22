@@ -11,26 +11,45 @@ body {
     font-family: 'Sono', sans-serif;
     text-align: center;
     position: relative;
-    top: 20vh;
+    margin-top: 20vh;
     color: rgb(233, 233, 233);
     text-shadow: 4px 2px 2px #2e2e2e;
+}
+
+.widgets {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.clock {
+    font-family: 'Share Tech Mono', monospace;
+    font-family: 'Sono', sans-serif;
+    color: rgb(189, 189, 189);
+    text-shadow: 4px 2px 2px #2e2e2e;
+    font-size: 60px;
+    letter-spacing: 7px;
 }
 
 .box {
     cursor: inherit;
     position: relative;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 10vh;
 }
 
 .button-container {
     position: relative;
+    margin-inline-start: 5vw;
+    margin-inline-end: 5vw;
 }
 
 .button-pink {
     position: relative;
-    top: 30vh;
+    
 }
 
 button {
@@ -43,15 +62,16 @@ button {
     text-decoration: none;
     font-family: 'Share Tech Mono', monospace;
     font-family: 'Sono', sans-serif;
-    font-size: 15px;
+    font-size: 12px;
     margin-top: 20px;
-    min-width: 25vw;
+    min-width: 15vw;
+    max-width: 15vw;
 }
 
 a {
     text-decoration: none;
     outline: none;
-  }
+}
 
 button.button-pink {
     font-weight: 600;
