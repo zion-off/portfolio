@@ -87,7 +87,7 @@ button.button-pink {
     transition: transform 150ms cubic-bezier(0, 0, 0.58, 1), background 150ms cubic-bezier(0, 0, 0.58, 1), -webkit-transform 150ms cubic-bezier(0, 0, 0.58, 1);
 }
 
-button.button-pink::before {
+button.button-pink::before{
     position: absolute;
     content: '';
     width: 100%;
@@ -125,4 +125,3 @@ button.button-pink:active::before {
     -webkit-transform: translate3d(0, 0, -1em);
     transform: translate3d(0, 0, -1em);
 }
-
