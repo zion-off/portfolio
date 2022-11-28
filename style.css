@@ -8,10 +8,15 @@
     src: url('assets/sunflower.otf');
 }
 
+html {
+    width: 100%;
+	height: 100%;
+}
+
 body {
     background: url(assets/2.png);
     background-size: cover;
-    cursor: url(assets/cursor.png);
+	height: 100%;
 }
 
 a:link, a:visited { 
