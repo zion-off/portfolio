@@ -45,6 +45,7 @@ a:link, a:visited {
 
 #commlab {
     font-family: Kafka, sans-serif;
+    z-index: 2;
     font-size: 2.5vw;
     position: absolute;
     top: 15vh;
