@@ -1,33 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="commlabstyle.css">
+    <script src="commlabscript.js"></script>
     <title>assignments</title>
 </head>
+
 <body>
-    <div class="30mff">
-        <h3><a href="https://zion-off.github.io/30mff/">30 minute film festival</a></h3>
-        <div id="30mff-text"></div>
-    </div>
 
-    <div class="comix">
-        <h3><a href="https://vsharkovski.github.io/commlab-comic/">interactive comic</a></h3>
-        <div id="comic-text"></div>
+    <div class="menu">
+        <div class="numbers">
+            <span>
+                <h2 id="thirty-mff" onmouseover="showthirtymfftext()" onmouseleave="hidethirtymfftext()"><a href="https://zion-off.github.io/30mff/">1</a></h2>
+            </span>
+            <span>
+                <h2 id="comix" onmouseover="showcomixtext()" onmouseleave="hidetcomixtext()"><a href="https://vsharkovski.github.io/commlab-comic/">2</a></h2>
+            </span>
+            <span>
+                <h2 id="sound" onmouseover="showsoundtext()" onmouseleave="hidesoundtext()"><a href="https://zion-off.github.io/commlab-sound/">3</a></h2>
+            </span>
+            <span>
+                <h2 id="video" onmouseover="showvideotext()" onmouseleave="hidetvideotext()"><a href="https://zion-off.github.io/vid-e-oh/">4</a></h2>
+            </span>
+        </div>
+        <div class="label">
+            <h2 id="label"></h2>
+        </div>
     </div>
-
-    <div class="sound">
-        <h3><a href="https://zion-off.github.io/commlab-sound/">soundscape</a></h3>
-        <div id="sound-text"></div>
-    </div>
-
-    <div class="video">
-        <h3><a href="https://zion-off.github.io/vid-e-oh/">vid-e-oh</a></h3>
-        <div id="video-text"></div>
-    </div>
-
-    <div></div>
 </body>
+
 </html>
