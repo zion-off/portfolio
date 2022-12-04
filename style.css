@@ -64,3 +64,11 @@ a:link, a:visited {
     bottom: 6vh;
     left: 20vw;
 }
+
+#readme {
+    font-family: Type, sans-serif;
+    font-size: 1vw;
+    position: absolute;
+    bottom: 2vh;
+    right: 2vw;
+}
